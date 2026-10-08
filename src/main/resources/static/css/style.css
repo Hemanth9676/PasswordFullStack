@@ -13,10 +13,10 @@ body{
     justify-content:center;
     align-items:center;
 
-    background:linear-gradient(
-            to right,
-            #4facfe,
-            #00f2fe
+    background: linear-gradient(
+        to right,
+        purple,
+        hotpink
     );
 }
 
@@ -24,7 +24,7 @@ body{
 
     width:420px;
 
-    background:#e3f2fd;
+    background:yellow;
 
     padding:35px;
 
@@ -38,7 +38,7 @@ body{
 
 h2{
 
-    color:#1f2937;
+    color:darkgray;
 
     margin-bottom:25px;
 }
@@ -67,7 +67,7 @@ input:hover
 input:focus{
 
     outline:none;
-    border-color:#2196f3;
+    border-color:blue;
 }
 
 button{
@@ -87,11 +87,14 @@ button{
     font-size:16px;
 
     cursor:pointer;
+
+     transition:transform 3s;
 }
 
 button:hover{
 
-    background:#1565c0;
+    background:royalblue;
+    transform:scale(1.5);
 }
 
 #result{
@@ -107,7 +110,7 @@ button:hover{
 
     text-align:left;
 
-    background:#ffffff70;
+    background:white;
 
     padding:15px;
 
@@ -118,5 +121,5 @@ button:hover{
 
     margin:6px 0;
 
-    color:#333;
+    color:darkgray;
 }
