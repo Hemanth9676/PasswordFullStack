@@ -15,8 +15,7 @@ body{
 
     background: linear-gradient(
         to right,
-        purple,
-        hotpink
+       black, darkgray
     );
 }
 
@@ -24,7 +23,7 @@ body{
 
     width:420px;
 
-    background:yellow;
+    background:lightgreen;
 
     padding:35px;
 

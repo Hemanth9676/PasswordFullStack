@@ -25,14 +25,9 @@ function checkPassword() {
                 "Password Strength : " + data;
 
 
-            if (data === "Strong") {
+            if (data === "Password is valid.") {
 
                 result.style.color = "green";
-            }
-
-            else if (data === "Medium") {
-
-                result.style.color = "orange";
             }
 
             else {
